@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/zipline-zoomedout-smaller.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;}
+
+div {
+    position: center;
+}
+
+div.button {
+  font-family: 'Montserrat', sans-serif;
+  position: center;
+  width: 20%;
+  box-shadow: 0 0 10px #777777;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.button a {
+  float: inherit;
+  display: block;
+  color: gray;
+  background-color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+div.button a:hover {
+  background: lightblue;
+  color: gray;
+  transition: 0.9s;
+}

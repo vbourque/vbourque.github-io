@@ -1,0 +1,156 @@
+body {
+    font-family: 'Taviraj', serif;
+    color: black;
+    align-content: center;
+    background-color: white;
+    background-image: /*not yet*/
+    min-width: 800px;
+    max-width: 1000px;
+    width: 75%;
+    margin: 20px auto;
+}
+
+h1.navbar {
+    color: lightblue;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+}
+
+ul.navbar {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul li.navbar {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+div.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  min-width: 800px;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 0 10px #777777;
+  z-index: 1;
+}
+
+div.navbar a {
+  float: inherit;
+  display: block;
+  color: gray;
+  background-color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+div.navbar a:hover {
+  background: lightblue;
+  color: gray;
+  transition: 0.9s;
+}
+
+p.top {
+    margin-top: 190px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-family: 'Taviraj', serif;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: 'Taviraj', serif;
+    color: black;
+}
+
+h2 {
+    color: lightblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.button:link  {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: none;
+    background-color: lightblue;
+    padding: 10px;
+    position: relative;
+    padding: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.button:active {
+    color: gray;
+    border: none;
+    background-color: mediumpurple;
+}
+
+a.button:visited {
+    color: white;
+    border: 1px solid mediumpurple;
+    background-color: mediumpurple;
+}
+
+a.button:hover {
+    color: white;
+    border: none;
+    background-color: mediumpurple;
+    transition: 0.9s;
+
+}
+
+a.standard:link  {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+a.standard:visited {
+    color: mediumpurple;
+}
+
+a.standard:hover {
+    color: mediumpurple;
+}
+
+a.standard:active {
+    color: mediumpurple;
+}
+
+
+img {
+    float: right;
+    margin: 20px;
+    padding-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+section {
+    height: 500px;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+}
